@@ -1,0 +1,66 @@
+<html>
+<head>
+   <title>Make a better choice for your better tomorrow</title>
+</head>
+    <style>
+        .button_nav{
+        background-color: white; 
+            border-bottom-color: red;
+            border-bottom-width: thick;
+            border-radius: 10px;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            align-items: center;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            transition: all 0.5s;
+}
+
+.button_nav span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_nav span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button_nav:hover span {
+  padding-right: 25px;
+}
+
+.button_nav:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+    
+    </style>
+<body>
+    
+    <!--Logo and nav bar Div Container-->
+    <div style="width:1500px;height:100px,float: left;background-color: beige">
+    <img src="Images/LOGO/Logo.png" style="width:250spx; height:100px;"  alt="logo">
+    <button class="button_nav" style="vertical-align:middle"><a href="index.html"></a><span>Page 1 </span></button>
+    <button class="button_nav" style="vertical-align:middle"><a href="Page%202.html"></a><span>Page 2 </span></button>
+    <button class="button_nav" style="vertical-align:middle"><a href="Page%203.html"></a><span>Page 3 </span></button>
+    <button class="button_nav" style="vertical-align:middle"><a href="Page%204.html"></a><span>Page 4 </span></button>
+        
+    </div>
+    
+   
+
+
+</body>
+</html>
