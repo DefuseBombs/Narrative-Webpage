@@ -1,75 +1,58 @@
 <html>
 <head>
    <title>Make a better choice for your better tomorrow</title>
+    <link href="cssfile.css" rel="stylesheet" type="text/css">
 </head>
     <style>
-        .button_nav{
-        background-color: white; 
-            border-bottom-color: red;
-            border-bottom-width: thick;
-            border-radius: 10px;
-            color: black;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            align-items: center;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            transition: all 0.5s;
+      body, html {
+  height: 100%;
+  margin: 0;
 }
 
-.button_nav span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+.bg {
+  /* The image used */
+  background-image: url(Images/background/page%202.jpg);
+    
+
+  /* Full height */
+  height: 82%; 
+  width: 100%;  
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+                
+            .button1 {
+  background-color: red; 
+  opacity: 0.5;
+  color: black; 
+  border: 2px solid red;
 }
 
-.button_nav span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button_nav:hover span {
-  padding-right: 25px;
-}
-
-.button_nav:hover span:after {
+.button1:hover {
+  background-color: red;
   opacity: 1;
-  right: 0;
+  color: white;
+}
+        .button2 {
+  background-color: lightblue; 
+  color: black; 
+  border: 2px solid #008CBA;
 }
 
-        .container{
-            width: 1320px;
-            height: 405px;
-            padding: 100px;
-            background: black;
-            margin: 0px auto;
-            display: flex;
-            justify-content:flex-start;
-        
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+        .pic1{
+           background-image: url(Images/Blog%2520of%2520%2520%2520successful%2520person/1.jpg);
+             width: 200px;
+ height: 200px;"
         }
-        
-        .box{
-            width: 50px;
-            height: 50px;
-            padding: 100px;
-            background: beige;
-            margin: 0px 10px;
-            border-color: aqua;
-            border-width: thick;
-        }
-        
-        
     </style>
 <body>
-    
     <!--Logo and nav bar Div Container-->
     <div style="width:1500px;height:100px,float: left;background-color: beige">
     <img src="Images/LOGO/Logo.png" style="width:250spx; height:100px;"  alt="logo">
@@ -77,18 +60,29 @@
     <button class="button_nav" style="vertical-align:middle"><span>Page 3 </span></button>
     <button class="button_nav" style="vertical-align:middle"><span>Page 4 </span></button>
     <button class="button_nav" style="vertical-align:middle"><span>Page 5 </span></button>
+    <div class="bg">   
         
-    </div>
+    <button class="button button1" style ="float: left;">GO BACK</button>
+    <button class="button button2" style="float: right;">NEXT PAGE</button> 
+
+ <div class="pic1"></div>
+ 
+ </div>        
+        </div>
     
-    <div class="container">
-        <div class="box" style="align-content: flex-start"></div>
-      
-        <div class="box"></div>
-        <div class="box"></div>
+  
+  
         
     
     
-    </div>
+   
+    
+
+    
+    
+    
+    
+
     
    
 
