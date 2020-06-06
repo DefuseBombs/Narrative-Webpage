@@ -78,9 +78,18 @@
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 50px;
+ 
 }
-#a{ float:right; height: 1000px; width : 200px; } 
 
-#pic #pic1{ height:200px }
+.main_container{
+    border: 10px;
+    color: white;
+    padding: 100px;
+display: flex;
+justify-content:flex-start;
+    
+}
+
+
 
 
